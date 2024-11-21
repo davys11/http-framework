@@ -21,6 +21,10 @@
         }
     },
     "autoload-dev": {
+        "files": [
+            "src/App/detectLang.php",
+            "src/Framework/Http/createServerRequestFromGlobals.php"
+        ],
         "psr-4": {
             "Test\\App\\": "tests/App",
             "Test\\Framework\\": "tests/Framework"
